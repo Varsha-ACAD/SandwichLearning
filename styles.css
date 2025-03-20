@@ -1,21 +1,134 @@
-/* styles.css */
+/* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
+    background-color: #FAFAFA;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+/* Navbar Styling */
+.navbar {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-.card {
-    transition: transform 0.2s ease-in-out;
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
-.card:hover {
-    transform: scale(1.05);
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
 }
 
-footer {
-    background-color: #f8f9fa;
-    padding: 10px;
+.navbar-nav .nav-link:hover {
+    color: #007AFF;
+}
+
+/* Header */
+.header {
+    background-color: #FFFFFF;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Content Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Content Styling */
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #222;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.content ul, .content ol {
+    padding-left: 20px;
+}
+
+.content ul li, .content ol li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Custom Styling for Lists */
+.content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content ul li {
+    padding-left: 25px;
+    position: relative;
+}
+
+.content ul li::before {
+    content: "•";
+    color: #007AFF;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+/* Numbered List */
+.content ol {
+    counter-reset: list-counter;
+}
+
+.content ol li {
+    counter-increment: list-counter;
+    padding-left: 30px;
+    position: relative;
+}
+
+.content ol li::before {
+    content: counter(list-counter) ".";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: #007AFF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    .header p {
+        font-size: 1rem;
+    }
 }
