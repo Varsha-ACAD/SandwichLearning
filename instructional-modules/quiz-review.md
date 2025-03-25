@@ -1,6 +1,6 @@
 ---
+layout: layout.njk
 title: Quiz Review
-date: 2025-03-20
 ---
 
 # Quiz Review
@@ -15,24 +15,25 @@ Quizzes are not just assessment tools—they can be powerful learning experience
 
 ### Activity Flow
 
-- Self-Directed Learning with AI
+**Self-Directed Learning with AI**
+
+Provide the following instructions to the students.
     
-    Provide the following instructions to the students.
+1. Revisit the quiz. For every wrong answer, converse with AI to find out both the correct answer and where you went wrong. Note down these details:  
+    - What was the error?  
+    - What was the **gap or misconception** that led to this error?  
+2. At the end, write down **the concepts that need to be learned or revised**.  
+3. What is your **plan of action** to improve in the next quiz?  
+
+**Debrief**
     
-    1. Revisit the quiz. For every wrong answer, converse with AI to find out both the correct answer and where you went wrong. Note down these details:
-        1. What was the error?
-        2. What was the **gap or misconception** that led to this error?
-    2. At the end, write down **the concepts that need to be learned or revised**.
-    3. What is your **plan of action** to improve in the next quiz?
-- Debrief
+ After completing the quiz review, students will be placed into small groups and participate in a short debrief session.
     
-    After completing the quiz review, students will be placed into small groups and participate in a short debrief session.
-    
-    1. Share one key misconception they discovered during their review and how they corrected it.
-    2. Present their **action plan for improvement**.
-    3. Receive peer feedback on their action plan:
-        - Is it specific enough?
-        - Does it address the core issues identified?
+1. Share one key misconception they discovered during their review and how they corrected it.
+2. Present their **action plan for improvement**.
+3. Receive peer feedback on their action plan:
+    - Is it specific enough?
+    - Does it address the core issues identified?
 
 ### Assessment Ideas
 
